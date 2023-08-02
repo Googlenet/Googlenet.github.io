@@ -25,12 +25,23 @@ body {
 	background-color: rgb(255, 255, 255);
 	border-radius: 50%;
 	cursor: pointer;
+    margin-right: 10px;
     -webkit-transition: ease-out 1.2s;
     -moz-transition: ease-out 1.2s;
     transition: ease-out 1.2s;
 }
 
-.github-button:hover, .linkedin-button:hover {
+.resume-button {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    cursor: pointer;
+    -webkit-transition: ease-out 1.2s;
+    -moz-transition: ease-out 1.2s;
+    transition: ease-out 1.2s;
+}
+
+.github-button:hover, .linkedin-button:hover, .resume-button:hover {
 	background-color: gray;
 }
 
