@@ -51,7 +51,7 @@ body {
 	background-color: gray;
 }
 
-.about-button:hover, .resume-button:hover {
+.about-button:hover, .contact-button:hover, .resume-button:hover {
     background-color: #008CBA;
     color: black;
 }
@@ -141,7 +141,7 @@ input[type="submit"]:hover {
 	background-color: #555;
 }
 
-.section_blocks {
+.section {
 	width: 100vw;
 	height: 40vh;
 	background-color: #EF5354;
