@@ -3,9 +3,18 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 /* Global styles */
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #008CBA;
+}
+
 body {
 	font-family: Arial, sans-serif;
 	font-size: 16px;
@@ -22,12 +31,14 @@ body {
 
 .github-button, .linkedin-button {
 	border: none;
-	background-color: rgb(255, 255, 255);
+	/*background-color: rgb(255, 255, 255);*/
 	border-radius: 50%;
 	cursor: pointer;
     margin-right: 10px;
-    -webkit-transition: ease-out 1.2s;
-    -moz-transition: ease-out 1.2s;
+	height: 40px;
+	width: 40px;
+    /*-webkit-transition: ease-out 1.2s;
+    -moz-transition: ease-out 1.2s;*/
     transition: ease-out 1.2s;
 }
 
@@ -37,14 +48,14 @@ body {
     border: 3px solid #008CBA;
     border-radius: 8px;
     color: #008CBA;
-    padding: 9px;
+    padding: 8px 10px;
     cursor: pointer;
     margin-right: 10px;
     /*-webkit-transition: ease-out 1.2s;
     -moz-transition: ease-out 1.2s;
     transition: ease-out 1.2s; */
     transition-duration: 0.4s;
-	width: 80px;
+	width: 90px;
 }
 
 .github-button:hover, .linkedin-button:hover {
@@ -142,11 +153,15 @@ input[type="submit"]:hover {
 }
 
 .section {
-	width: 100vw;
 	height: 40vh;
 	background-color: #EF5354;
 	font-size: 50px;
 	color: white;
 	text-align: center;
 	margin: 10px 5px;
+}
+
+footer {
+	min-height:50px; 
+	text-align: center;
 }
