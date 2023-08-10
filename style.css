@@ -10,6 +10,7 @@
 /* Global styles */
 a {
 	text-decoration: none;
+	color: #61686b;
 }
 
 a:hover {
@@ -20,7 +21,7 @@ body {
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
-	color: #fcfcfc;
+	color: #aba9bb;
 	background-color: #11082f;
 }
 
@@ -44,7 +45,7 @@ svg:hover {
 	width: 40px;
     /*-webkit-transition: ease-out 1.2s;
     -moz-transition: ease-out 1.2s;*/
-    transition: ease-out 1.2s;
+    transition: ease-out 0.1s;
 }
 
 
@@ -175,7 +176,7 @@ input[type="submit"]:hover {
 	
 	/*background-color: #3a398a;*/
 	font-size: 20px;
-	color: white;
+	color: #aba9bb;
 	text-align: center;
 	margin: 10px 5px;
 }
