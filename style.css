@@ -23,6 +23,10 @@ body {
 	background-color: #11082f;
 }
 
+svg:hover {
+	fill: #0c75aa;
+}
+
 .button-container {
 	display: flex;
 	justify-content: center;
@@ -35,8 +39,8 @@ body {
 	border-radius: 50%;
 	cursor: pointer;
     margin-right: 10px;
-	height: 40px;
-	width: 40px;
+	height: 24px;
+	width: 24px;
     /*-webkit-transition: ease-out 1.2s;
     -moz-transition: ease-out 1.2s;*/
     transition: ease-out 1.2s;
@@ -58,9 +62,10 @@ body {
 	width: 90px;
 }
 
+/*
 .github-button:hover, .linkedin-button:hover {
-	background-color: gray;
-}
+	background-color: rgb(255, 255, 255);
+}*/
 
 .about-button:hover, .contact-button:hover, .resume-button:hover {
     background-color: #008CBA;
@@ -154,7 +159,11 @@ input[type="submit"]:hover {
 
 .section {
 	height: 40vh;
-	background-color: #EF5354;
+	border-color: #008CBA;
+	border-style: solid;
+	border-width: 2px;
+	
+	background-color: #3a398a;
 	font-size: 50px;
 	color: white;
 	text-align: center;
