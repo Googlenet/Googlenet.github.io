@@ -169,16 +169,19 @@ input[type="submit"]:hover {
 }
 
 .section {
-	height: 40vh;
+	
+	min-height: 35vh;
 	border-color: #008CBA;
 	border-style: solid;
 	border-width: 2px;
 	
 	/*background-color: #3a398a;*/
+
 	font-size: 20px;
 	color: #aba9bb;
 	text-align: center;
 	margin: 10px 5px;
+	padding: 30px 30px;
 }
 
 footer {
