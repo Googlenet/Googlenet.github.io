@@ -4,6 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Global styles */
@@ -35,12 +36,12 @@ svg:hover {
 
 .github-button, .linkedin-button {
 	border: none;
-	/*background-color: rgb(255, 255, 255);*/
+	background-color: rgb(255, 255, 255);
 	border-radius: 50%;
 	cursor: pointer;
     margin-right: 10px;
-	height: 24px;
-	width: 24px;
+	height: 40px;
+	width: 40px;
     /*-webkit-transition: ease-out 1.2s;
     -moz-transition: ease-out 1.2s;*/
     transition: ease-out 1.2s;
@@ -72,9 +73,18 @@ svg:hover {
     color: black;
 }
 
+.right-move-arrow p {
+	display: inline-block;
+	transition: 0.2s ease-in;
+}
+
+.right-move-arrow:hover p {
+	transform: translateX(25%);
+}
+
 
 header {
-	background-color: #333;
+	background-color: #008CBA;
 	color: #fff;
 	padding: 20px;
 }
